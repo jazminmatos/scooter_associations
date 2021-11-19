@@ -3,8 +3,8 @@ class Scooter {
     this.scooterID = scooterID;
     this.rentStatus = false;
     this.currentChargingStation = "";
-    this.constructor.allScooters.push(this);
     this.isFullyCharged = true;
+    this.constructor.allScooters.push(this);
   }
 
   static allScooters = [];

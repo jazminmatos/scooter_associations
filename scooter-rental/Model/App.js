@@ -6,7 +6,8 @@ class App extends Model {
 
 App.init({
     name: DataTypes.STRING,
-    
+    users: DataTypes.ARRAY,
+    stations: DataTypes.ARRAY
 }, {
     sequelize,
     timestamps: false

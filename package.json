@@ -1,0 +1,24 @@
+{
+  "name": "scooter_associations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazminmatos/scooter_associations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazminmatos/scooter_associations/issues"
+  },
+  "homepage": "https://github.com/jazminmatos/scooter_associations#readme",
+  "dependencies": {
+    "jest": "^27.3.1",
+    "sequelize": "^6.12.0-alpha.1",
+    "sqlite3": "^5.0.2"
+  }
+}
