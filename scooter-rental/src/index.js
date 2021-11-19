@@ -24,10 +24,11 @@ Scooter.belongsTo(User, {foreignKey: "user_id"})
 
 // Scooter belongs to a Station
 // Station has many Scooters
+Station.hasMany(Scooter, {as: "scooters", foreignKey: "station_id" })
+Scooter.belongsTo(Station, {foreignKey: "station_id"})
 
 
-
-
+module.exports = { User, App, Station, Scooter}
 
 
 
