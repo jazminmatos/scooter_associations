@@ -5,7 +5,7 @@ class Scooter extends Model {
 }
 
 Scooter.init({
-    scooterID: DataTypes.NUMBER,
+    scooterID: DataTypes.STRING,
     rentStatus: DataTypes.BOOLEAN,
     currentChargingStation: DataTypes.STRING,
     isFullyCharged: DataTypes.BOOLEAN
